@@ -4,6 +4,10 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+::after,
+::before {
+  box-sizing: border-box;
+}
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
@@ -418,13 +422,15 @@ p {
 	width: 100%;
 }
 #about .col-right h2 {
-	font-size: 1.8rem;
+	font-size: 20px;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
 }
 #about .col-right p {
 	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 15px;
 }
 #about .col-right .cta {
 	color: black;
@@ -515,14 +521,14 @@ p {
 #footer h2 {
 	color: white;
 	font-weight: 500;
-	font-size: 1.8rem;
+	font-size: 2.0rem;
 	letter-spacing: 0.1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 #footer .social-icon {
 	display: flex;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 #footer .social-item {
 	height: 50px;
@@ -531,15 +537,16 @@ p {
 }
 #footer .social-item img {
 	filter: grayscale(1);
-	transition: 0.3s ease filter;
+	transition: 0.5s ease filter;
 }
 #footer .social-item:hover img {
 	filter: grayscale(0);
 }
 #footer p {
 	color: white;
-	font-size: 1.3rem;
+	font-size: 15px;
 }
+
 /* End Footer */
 
 /* Keyframes */
